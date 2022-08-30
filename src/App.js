@@ -1,10 +1,13 @@
 import { Component } from "react";
 
+import CardList from "./components/card-list/card-list.component";
+
 import "./App.css";
+import SearchBox from "./components/search-box/search-box.component";
 
 class App extends Component {
   constructor() {
-    console.log("constructor");
+    // console.log("constructor");
     super();
     this.state = {
       monsters: [],
@@ -13,7 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    console.log("componentDidMount");
+    // console.log("componentDidMount");
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
       .then((users) =>
@@ -26,33 +29,35 @@ class App extends Component {
   }
 
   onSearchChange = (event) => {
-    console.log(event.target.value);
-    const searchString = event.target.value.toLowerCase();
-
+    // console.log(event.target.value);
+    const { value } = event.target;
+    const searchString = value.toLowerCase();
     this.setState(() => {
       return { searchString };
     });
   };
 
   render() {
-    console.log("render");
+    // console.log("render");
+    const { monsters, searchString } = this.state;
+    const { onSearchChange } = this;
 
-    const filteredMonsters = this.state.monsters.filter((monster) => {
-      return monster.name.toLowerCase().includes(this.state.searchString);
+    const filteredMonsters = monsters.filter((monster) => {
+      return monster.name.toLowerCase().includes(searchString);
     });
 
     return (
       <div className="App">
         <h1>Title</h1>
-        <input
-          className="search-box"
-          type="search"
+        <SearchBox
+          className=""
+          onChangeHandler={onSearchChange}
           placeholder="Search Monsters"
-          onChange={this.onSearchChange}
         />
-        {filteredMonsters.map((monster) => {
+        {/* {filteredMonsters.map((monster) => {
           return <h1 key={monster.id}>{monster.name}</h1>;
-        })}
+        })} */}
+        <CardList item={filteredMonsters} />
       </div>
     );
   }
