@@ -13,3 +13,9 @@ body {
   );
   text-align: center;
 }
+
+h1 {
+  font-family: Nosifer, sans-serif;
+  color: aliceblue;
+  font-size: 3rem;
+}
