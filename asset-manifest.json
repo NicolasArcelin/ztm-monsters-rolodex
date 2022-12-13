@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ztm-crwn-clothing/static/css/main.3107bce4.css",
+    "main.js": "/ztm-crwn-clothing/static/js/main.7cc72808.js",
+    "static/js/787.14fc0cb7.chunk.js": "/ztm-crwn-clothing/static/js/787.14fc0cb7.chunk.js",
+    "index.html": "/ztm-crwn-clothing/index.html",
+    "main.3107bce4.css.map": "/ztm-crwn-clothing/static/css/main.3107bce4.css.map",
+    "main.7cc72808.js.map": "/ztm-crwn-clothing/static/js/main.7cc72808.js.map",
+    "787.14fc0cb7.chunk.js.map": "/ztm-crwn-clothing/static/js/787.14fc0cb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3107bce4.css",
+    "static/js/main.7cc72808.js"
+  ]
+}
