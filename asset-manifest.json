@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ztm-crwn-clothing/static/css/main.3107bce4.css",
-    "main.js": "/ztm-crwn-clothing/static/js/main.7cc72808.js",
-    "static/js/787.14fc0cb7.chunk.js": "/ztm-crwn-clothing/static/js/787.14fc0cb7.chunk.js",
-    "index.html": "/ztm-crwn-clothing/index.html",
-    "main.3107bce4.css.map": "/ztm-crwn-clothing/static/css/main.3107bce4.css.map",
-    "main.7cc72808.js.map": "/ztm-crwn-clothing/static/js/main.7cc72808.js.map",
-    "787.14fc0cb7.chunk.js.map": "/ztm-crwn-clothing/static/js/787.14fc0cb7.chunk.js.map"
+    "main.css": "/ztm-monsters-rolodex/static/css/main.3107bce4.css",
+    "main.js": "/ztm-monsters-rolodex/static/js/main.439c8dd6.js",
+    "static/js/787.14fc0cb7.chunk.js": "/ztm-monsters-rolodex/static/js/787.14fc0cb7.chunk.js",
+    "index.html": "/ztm-monsters-rolodex/index.html",
+    "main.3107bce4.css.map": "/ztm-monsters-rolodex/static/css/main.3107bce4.css.map",
+    "main.439c8dd6.js.map": "/ztm-monsters-rolodex/static/js/main.439c8dd6.js.map",
+    "787.14fc0cb7.chunk.js.map": "/ztm-monsters-rolodex/static/js/787.14fc0cb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3107bce4.css",
-    "static/js/main.7cc72808.js"
+    "static/js/main.439c8dd6.js"
   ]
 }
